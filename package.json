@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {
     "dev:client": "nx serve chatapp",
-    "dev:server": "nx serve server"
+    "dev:server": "nx serve server",
+    "lint:client": "nx lint chatapp",
+    "lint:server": "nx lint server"
   },
   "private": true,
   "devDependencies": {
